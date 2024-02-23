@@ -5,9 +5,11 @@ I) There are two main challenges in getting this code to compile - of course i a
 
 1 - visual studio community edition : make sure to download the vs community edition with the game development packages, you'll be prompted to choose your download type. you wont miss it , at the time of writing the whole thing is about 2.4 gb.
 
-2- now the tricky part is linking your project to the SDL , SOIL and GLEW libraries. for this check this link: 
+2- clone the repo ,  you'll see two .cpp files, one header file and the libraries zip file called External- extract it.
+
+2.1 now the tricky part is linking your project to the SDL , SOIL and GLEW libraries. for this check this link: 
 https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php. 
-2.1 clone the repo ,  you'll see two .cpp files, one header file and the libraries folder called External.
+
 2.2 Start a new project and add the found .cpp and .h files to the source files located in the explorer pane.
 
 press the green triangle up to build the game !  
