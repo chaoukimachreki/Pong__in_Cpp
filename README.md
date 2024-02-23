@@ -8,6 +8,7 @@ I) There are two main challenges in getting this code to compile - of course i a
 2- clone the repo ,  you'll see two .cpp files, one header file and the libraries zip file called External- extract it.
 
 2.1 Start a new project and add the found .cpp and .h files to the source files located in the explorer pane.
+
 2.2 now the tricky part is linking your project to the SDL , SOIL and GLEW libraries. for this check this link: 
 https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php. 
 
